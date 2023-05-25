@@ -1,5 +1,5 @@
 {
-  "name": "darkaonline/l5-swagger",
+  "name": "instocky/l5-swagger",
   "description": "OpenApi or Swagger integration to Laravel",
   "keywords": [
     "laravel",
@@ -34,7 +34,7 @@
   },
   "autoload": {
     "psr-4": {
-      "L5Swagger\\": "src"
+      "iL5Swagger\\": "src"
     },
     "files": [
       "src/helpers.php"
@@ -48,10 +48,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "L5Swagger\\L5SwaggerServiceProvider"
+        "iL5Swagger\\L5SwaggerServiceProvider"
       ],
       "aliases": {
-        "L5Swagger": "L5Swagger\\L5SwaggerFacade"
+        "iL5Swagger": "iL5Swagger\\L5SwaggerFacade"
       }
     }
   },
