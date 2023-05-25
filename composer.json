@@ -34,7 +34,7 @@
   },
   "autoload": {
     "psr-4": {
-      "iL5Swagger\\": "src"
+      "L5Swagger\\": "src"
     },
     "files": [
       "src/helpers.php"
