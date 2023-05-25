@@ -48,10 +48,10 @@
   "extra": {
     "laravel": {
       "providers": [
-        "iL5Swagger\\L5SwaggerServiceProvider"
+        "L5Swagger\\L5SwaggerServiceProvider"
       ],
       "aliases": {
-        "iL5Swagger": "iL5Swagger\\L5SwaggerFacade"
+        "L5Swagger": "L5Swagger\\L5SwaggerFacade"
       }
     }
   },
