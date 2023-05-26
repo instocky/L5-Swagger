@@ -120,7 +120,7 @@ class SwaggerController extends BaseController
         }
 
         $urlToDocs = $this->generateDocumentationFileURL($documentation, $config);
-        $urlToDocs = 'http://qr.azalianow.ru/docs/api-docs.json';
+        $urlToDocs = 'https://qr.azalianow.ru/docs/api-docs.json';
         $useAbsolutePath = config('l5-swagger.documentations.'.$documentation.'.paths.use_absolute_path', true);
 
         // Need the / at the end to avoid CORS errors on Homestead systems.
